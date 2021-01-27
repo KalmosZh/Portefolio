@@ -1,0 +1,159 @@
+
+@font-face {
+  font-family: 'overpass';
+  src: url('overpass-bold.otf');
+}
+html{
+  height: 100%;
+  min-width: 514px;
+}
+h1{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom: 20px;
+}
+article{
+  text-align: center;
+}
+body{
+  padding: 0px;
+  margin:0px;
+  background-color: white;
+  color:black;
+  min-height: 100%;
+  position:relative;
+  font-family: 'overpass';
+  padding-bottom:125px;
+  width: 100%;
+}
+#navbarSupportedContent{
+  min-height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+#navbarSupportedContentul{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbarSupportedContent li:hover a{
+  border-bottom: white 5px solid;
+  color: #73797D;
+}
+form{
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-outline-success,
+.btn-outline-success:hover,
+.btn-outline-success:active,
+.btn-outline-success:visited,
+.btn-outline-success:focus {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+.navbar-toggler{
+  height: 60px;
+  width: 60px;
+}
+footer p{
+  padding-top: 15px;
+}
+footer {
+  margin: 0;
+  height: 125px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+.form{
+  border-radius: 10px;
+  border:1px #DEE2E5 solid;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  margin-bottom: 70px;
+}
+.progress{
+  background-color: #F0F3F5;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+}
+.badge{
+  font-size: 12px;
+  float: left;
+  height: 20px;
+  line-height: 14px;
+  width: 60px;
+  margin-top: -0.9px;
+}
+.competences{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bienvenue{
+  font-size: 50px;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  width: 420px;
+  height: 200px;
+  margin-left: -210px;
+  margin-top: -100px;
+}
+#bienvenue h1{
+  font-size: 38px;
+}
+#bienvenue .animation{
+  font-size: 60px;
+}
+.animation{
+	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.card-deck{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card h4{
+  text-align: center;
+}
